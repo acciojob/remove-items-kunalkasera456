@@ -4,9 +4,9 @@
 
 removeColor.eventListner("click", function () {
 	// Get the index of the selected option
-  const selectedIndex = colorSelect.selectedIndex;
+  const selectedIndex = colorChoose.selectedIndex;
 
   // Remove the selected option from the dropdown
-  colorSelect.remove(selectedIndex);
+  colorChoose.remove(selectedIndex);
 	
 })
